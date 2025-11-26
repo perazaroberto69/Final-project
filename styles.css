@@ -3,6 +3,11 @@
     src: url(Trajan\ Pro\ Regular.ttf);
 }
 
+@font-face {
+    font-family: Poppins;
+    src:url(poppins.regular.ttf)
+}
+
 
 Body {
     background-color: rgb(0, 0, 0);
@@ -98,7 +103,6 @@ a{
 }
 
 .img15 {
-    filter: blur(5px);
     width:300px;
     height:300px;
     transition-property: all;
@@ -109,7 +113,6 @@ a{
 }
 
 .img15:hover {
-    filter:none;
     width:325px;
     height:325px;
     
@@ -131,6 +134,7 @@ a{
     font-family:Trajan;
     display:flex;
     justify-content: space-evenly;
+    text-align:center;
 
 }
 
@@ -143,6 +147,106 @@ a{
 }
 
 .desc1:active {
+    filter:none;
+}
+
+.footer {
+    background-image: linear-gradient(black,rgb(38, 38, 111));
+    background-size: cover 75px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+
+#imgfooter {
+    margin-top:100px;
+    margin-bottom:60px;
+}
+
+
+
+.Everyone {
+    display:flex;
+    justify-content:center;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+#footerp {
+    color:white;
+    font-family:Poppins;
+    font-size:20px;
+    margin-left:200px;
+    margin-right:200px;
+    text-align: center;
+
+}
+
+#teamcherryquote {
+    color:white;
+    font-family:Poppins;
+    margin-top:20px;
+}
+
+#link {
+    margin-top:60px;
+    border: 1px solid;
+    padding:16.8px;
+    background-color:white;
+    color:rgb(38, 38, 111);
+    font-size:20px;
+    font-family:Poppins;
+    margin-bottom:200px;
+}
+
+#dlc-header {
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-size:100px;
+    font-family:Trajan;
+    margin-top:200px;
+}
+
+.dlc-images {
+    display:flex;
+    justify-content:space-around;
+    margin-top: 70px;
+    
+}
+
+.dlc-names {
+    display:flex;
+    color:white;
+    justify-content:space-around;
+    font-size:20px;
+    font-family:Trajan;
+    
+    
+
+    
+}
+
+.dlc-desc {
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    font-family:Trajan;
+    text-align:center;
+    margin-top:50px;
+
+}
+
+.desc2 {
+    filter: blur(5px);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    cursor:zoom-in;
+}
+
+.desc2:active {
     filter:none;
 }
 
