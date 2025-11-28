@@ -18,7 +18,7 @@ Body {
     background-color:black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     font-size: 30px;
     animation: fade-in 2s ease-in;
     background-image: url(https://images.squarespace-cdn.com/content/v1/606d159a953867291018f801/1619987722169-VV6ZASHHZNRBJW9X0PLK/Key_Art_02_layeredjpg.jpg?format=1500w);
@@ -211,7 +211,7 @@ a{
 
 .dlc-images {
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top: 70px;
     
 }
@@ -219,22 +219,20 @@ a{
 .dlc-names {
     display:flex;
     color:white;
-    justify-content:space-around;
-    font-size:20px;
+    justify-content:space-between;
     font-family:Trajan;
-    
-    
-
-    
+    margin-left:20px;
+    margin-right:20px;
+   
 }
 
 .dlc-desc {
     color:white;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     font-family:Trajan;
     text-align:center;
-    margin-top:50px;
+    margin-top:30px;
 
 }
 
@@ -248,5 +246,44 @@ a{
 
 .desc2:active {
     filter:none;
+}
+
+.sound-desc {
+    color:white;
+    margin-left:50px;
+}
+
+.soundtrack {
+    display:flex;
+    font-family:Trajan;
+
+}
+
+#soundheader {
+    font-size:70px;
+    margin-top:100px
+}
+
+#soundpara {
+    margin-top:50px
+}
+
+#soundlink {
+    border: 1px solid white;
+    padding:16.8px;
+    color:black;
+    background-color:white;
+}
+
+.soundimg {
+    margin-top:100px;
+    margin-right:50px;
+    margin-bottom:70px;
+}
+
+.sndlink {
+     margin-top:60px;
+     margin-bottom:70px;
+     
 }
 
