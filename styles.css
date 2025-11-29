@@ -130,7 +130,7 @@ a{
 }
 
 .descriptions {
-     color:white;
+    color:white;
     font-family:Trajan;
     display:flex;
     justify-content: space-evenly;
@@ -140,7 +140,7 @@ a{
 
 .desc1 {
     filter:blur(5PX);
-     transition-property: all;
+    transition-property: all;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
     cursor:zoom-in;
@@ -282,8 +282,92 @@ a{
 }
 
 .sndlink {
-     margin-top:60px;
-     margin-bottom:70px;
+    margin-top:60px;
+    margin-bottom:70px;
      
+}
+
+.mapintro {
+    color:white;
+    display:flex;
+    justify-content:center;
+    font-size:100px;
+    margin-top:80px;
+    font-family:Trajan;
+    animation: fade-in 2s ease-in;
+}
+
+.mapimg1 {
+    display:flex;
+    justify-content:center;
+    animation: fade-in 2s ease-in;
+    
+}
+
+.dialogue {
+    display:flex;
+    color:white;
+    Justify-content:space-around;
+    text-align:center;
+    font-size:30px;
+    margin:50px;
+    font-family:Trajan;
+}
+
+.transform {
+    color:white;
+    font-size:100px;
+    font-family:trajan;
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+}
+
+.transform1 {
+    display:flex;
+    justify-content:space-around;
+    margin:50px
+}
+
+#infectpara {
+    color:white;
+    font-size:30px;
+    font-family:Trajan;
+}
+
+.vs {
+    display:flex;
+    justify-content:space-around;
+    margin-top:100px;
+    color:white;
+    font-family:Trajan;
+    font-size:35px;
+}
+
+.infectimgs {
+    margin-top:50px;
+    justify-items: center;
+
+}
+
+.normalvs {
+     display:flex;
+    justify-content:space-around;
+    margin-top:100px;
+    color:white;
+    font-family:Trajan;
+    font-size:35px;
+}
+
+.example {
+    filter:blur(5px);
+     transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    cursor:zoom-in;
+}
+
+.example:active {
+    filter:none;
 }
 
