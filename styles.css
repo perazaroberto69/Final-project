@@ -394,7 +394,7 @@ a{
     display:flex;
     justify-content:center;
     font-size:30px;
-    margin-top:30px;
+    margin-top:50px;
     font-family:Trajan
 }
 
@@ -423,7 +423,7 @@ a{
     align-items:center;
     left:500px;
     position:relative;
-    left:1075px;
+    left:1225px;
     bottom:200px;
 }
 
@@ -446,13 +446,14 @@ a{
     font-family:Trajan;
     text-align:center;
     font-size:30px;
-    margin-top:80px;
+    margin:80px;
 }
 
 #iselda {
     position:relative;
-    left:200px;
+    left:650px;
     margin-top:50px;
+    margin-bottom: 60px;
 }
 
 .finalmap {
