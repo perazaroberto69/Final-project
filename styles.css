@@ -15,7 +15,7 @@ p {
 
 Body {
     background-color: rgb(0, 0, 0);
-   
+   overflow-x: hidden;
 }
 
 .header {
@@ -461,6 +461,33 @@ a{
     font-size:30px;
     margin:40px;
     text-align:center;
+}
+
+.image-quote {
+    display:flex;
+    justify-content: center;
+}
+
+.quote {
+    font-family:Trajan;
+    position:relative;
+    left:825px;
+    margin-top:60px;
+}
+
+#cost {
+    position:relative;
+    left:35px;
+    margin-top:10px;
+    font-style: italic;
+
+}
+
+#palequote {
+    position:relative;
+    left:125px;
+    margin-top:10px;
+    margin-bottom:10px;
 }
 
 
