@@ -466,6 +466,7 @@ a{
 .image-quote {
     display:flex;
     justify-content: center;
+    animation: fade-in 2s ease-in;
 }
 
 .quote {
@@ -473,6 +474,7 @@ a{
     position:relative;
     left:825px;
     margin-top:60px;
+    animation: fade-in 2s ease-in;
 }
 
 #cost {
